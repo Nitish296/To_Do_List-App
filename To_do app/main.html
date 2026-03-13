@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>To Do App</title>
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="top-bar">
+<button id="toggleMode" class="toggle-btn">🌙</button>
+<button onclick="clearTasks()" class="clear-btn">🗑</button>
+</div>
+
+<h2>📝 To Do List</h2>
+
+<div class="inputBox">
+<input type="text" id="taskInput" placeholder="Enter task...">
+<button onclick="addTask()">Add</button>
+</div>
+<div class="task-stats">
+<p>Total: <span id="totalTasks">0</span></p>
+<p>Completed: <span id="completedTasks">0</span></p>
+<p>Remaining: <span id="remainingTasks">0</span></p>
+</div>
+<ul id="taskList"></ul>
+
+</div>
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
