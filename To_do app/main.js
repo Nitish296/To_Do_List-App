@@ -33,6 +33,8 @@ createTask(task,false);
 
 saveTasks();
 
+updateCounter(); 
+
 taskInput.value="";
 
 }
